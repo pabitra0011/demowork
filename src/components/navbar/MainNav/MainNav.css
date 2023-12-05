@@ -1,0 +1,370 @@
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+.mainNav {
+    width: 100%;
+    /* background: rgb(231, 31, 231); */
+    background-color: rgb(211, 47, 156);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    height: 50px;
+    margin-top: 2.7rem;
+    /* sticky nav ..................... */
+    /* position: fixed;
+    top: 2.7rem;
+    left: 0;
+    right: 0;
+    z-index: 99; */
+    /* margin-bottom: 4rem; */
+
+}
+
+.mainNav .mainNav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainNav .mainNav-logo .icon {
+    font-size: 5rem;
+    color: rgb(0, 238, 255);
+    animation: ani 4s linear infinite;
+}
+
+@keyframes ani {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    30% {
+        /* transform: translateY(0.3rem); */
+    }
+
+    70% {
+        /* transform: translateY(0.6rem); */
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+
+}
+
+/* .mainNav-logo h2 {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+} */
+
+/* deal with navigations list items */
+
+.mainNav .mainNav-list {
+    display: flex;
+}
+
+/* .mainNav .mainNav-list li{
+  margin: 0 .8rem;
+  padding: .8rem .4rem;
+} */
+.mainNav .mainNav-list li a {}
+
+.mainNav .mainNav-list li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 140);
+}
+
+.main-menu {
+    margin: 0 .8rem;
+    padding: .8rem .4rem;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+
+
+.mainNav .mainNav-list .dropdown-container {
+    /* width: 90vw ; */
+    width: 900px;
+    height: fit-content;
+    position: absolute;
+    margin: .4rem auto;
+    /* top: 14%; */
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: rgb(255, 173, 237) 0px 20px 30px -10px;
+    padding: 1rem;
+    display: none;
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.mainNav-list .dropdown-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.mainNav-list .dropdown-menu h3 {
+    color: rgb(255, 0, 140);
+    padding: 0.6rem 0rem;
+}
+
+.mainNav-list .main-menu:hover .dropdown-container {
+    display: block;
+}
+
+.mainNav-list .dropdown-menu li {
+    padding: .2rem 0rem;
+    word-break: break-all;
+}
+
+.dropdown-menu .dropdown-row {
+    /* border: 1px solid rgb(187, 187, 187); */
+    /* width: fit-content; */
+    width: 100%;
+    margin: 0rem;
+    background-color: rgb(245, 249, 247);
+}
+
+.nav-socials {
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-socials .icon {
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 1s;
+    color: #fff;
+}
+
+/* 
+.nav-socials .icon:hover {
+    transform: translateY(0.7rem);
+} */
+.nav-socials .icon {
+    color: #fff;
+    animation: updownIcon 2s linear infinite;
+}
+
+.nav-socials .icon:hover {
+    transform: translateY(-0.7rem);
+}
+
+.nav-socials .fb {
+    animation: updownIcon1 3s linear infinite;
+    /* color: blue; */
+}
+
+.nav-socials .fb:hover {
+    color: rgb(90, 120, 255);
+}
+
+.nav-socials .ins {
+    animation: updownIcon2 3s linear infinite;
+    /* color: red; */
+}
+
+.nav-socials .ins:hover {
+    color: red;
+}
+
+.nav-socials .tw {
+    animation: updownIcon4 5s linear infinite;
+    /* color: rgb(11, 186, 255); */
+}
+
+.nav-socials .tw:hover {
+    color: aqua;
+    /* color: #e2e2e2; */
+}
+
+.nav-socials .mes {
+    animation: updownIcon5 3s linear infinite;
+    /* color: blueviolet; */
+}
+
+.nav-socials .mes:hover {
+    color: blueviolet;
+}
+
+.nav-socials .pin {
+    animation: updownIcon6 3s linear infinite;
+    /* color: brown; */
+}
+
+.nav-socials .pin:hover {
+    color: brown;
+}
+
+@keyframes updownIcon1 {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    35% {
+        transform: translateY(0.1rem);
+    }
+
+    70% {
+        transform: translateY(-0.1rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes updownIcon2 {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    35% {
+        transform: translateY(0.1rem);
+    }
+
+    70% {
+        transform: translateY(-0.1rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes updownIcon3 {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    35% {
+        transform: translateY(0.1rem);
+    }
+
+    70% {
+        transform: translateY(-0.1rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes updownIcon4 {
+    0% {
+        transform: translateY(0rem);
+        transform: translateX(1.4rem);
+        /* color: rgb(7, 207, 221); */
+    }
+
+    35% {
+        transform: translateY(0.4rem);
+        /* transform: translateX(0.5rem); */
+        /* color: rgb(115, 228, 248); */
+    }
+
+    70% {
+        transform: translateY(-0.4rem);
+        /* transform: translateX(0.5rem); */
+        /* color: rgb(0, 255, 242); */
+    }
+
+    100% {
+        transform: translateY(0);
+        transform: translateX(1.4rem);
+        /* color: rgb(233, 254, 255); */
+    }
+}
+
+@keyframes updownIcon5 {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    35% {
+        transform: translateY(0.1rem);
+    }
+
+    70% {
+        transform: translateY(-0.1rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes updownIcon6 {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    35% {
+        transform: translateY(0.1rem);
+    }
+
+    70% {
+        transform: translateY(-0.1rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* 
+.nav-socials .fb {
+    color: rgb(6, 6, 192);
+}
+
+.nav-socials .fb:hover {
+    transform: translateY(-0.7rem);
+}
+
+.nav-socials .ins {
+    color: rgb(221, 8, 8);
+}
+
+.nav-socials .ins:hover {
+    transform: translateY(0.7rem);
+}
+
+.nav-socials .tw {
+    color: aqua;
+}
+
+.nav-socials .tw:hover {
+    transform: translateY(-0.7rem);
+}
+
+.nav-socials .pin {
+    color: brown;
+}
+
+.nav-socials .pin:hover {
+    transform: translateY(0.7rem);
+}
+
+.nav-socials .mes {
+    color: rgb(111, 6, 172);
+}
+
+.nav-socials .mes:hover {
+    transform: translateY(-0.7rem);
+} */

@@ -1,0 +1,105 @@
+.homeCategories-section {
+    width: 70vw;
+    margin: auto;
+    padding: 3rem 0;
+    margin-top: 2rem;
+}
+
+.homeCategories-title {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2rem 0; */
+}
+
+.homeCategories-title h2 {
+    color: rgb(73, 73, 73);
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.homeCategories-title a {
+    font-size: 18px;
+    color: red;
+    /* text-decoration: underline; */
+    padding-right: 1rem;
+}
+
+.homeCategories-item {
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 0 .2rem .5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: .2s;
+}
+
+.item1:hover {
+    box-shadow: #c499ed 0px 20px 30px -10px;
+    transform: scale(1.04);
+    transition: 1s;
+}
+
+.item2:hover {
+    box-shadow: #f8e6c5 0px 20px 30px -10px;
+    transform: scale(1.04);
+    transition: 1s;
+}
+
+.item3:hover {
+    box-shadow: #f7b3ec 0px 20px 30px -10px;
+    transform: scale(1.04);
+    transition: 1s;
+}
+
+.item4:hover {
+    box-shadow: #b3f7be 0px 20px 30px -10px;
+    transform: scale(1.04);
+    transition: 1s;
+}
+
+.item5:hover {
+    box-shadow: #f7bbb3 0px 20px 30px -10px;
+    transform: scale(1.04);
+    transition: 1s;
+}
+
+.item6:hover {
+    box-shadow: lightblue 0px 20px 30px -10px;
+    transform: scale(1.04);
+    transition: 1s;
+}
+
+.homeCategories-item-img {
+    height: 120px;
+    width: 250px;
+}
+
+.homeCategories-item-img img {
+    width: 100%;
+    border-radius: 5px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.homeCategories-container {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.homeCategories-item-title h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(63, 61, 61);
+}
+
+.homeCategories-item-title p {
+    font-family: 'Courier New', Courier, monospace;
+}

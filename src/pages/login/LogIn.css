@@ -1,0 +1,149 @@
+.login-page {
+    background-color: rgb(235, 235, 235);
+}
+
+.login-container {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* gap: 2rem; */
+    padding: 1rem;
+}
+
+.login-img-section {
+    width: 400px;
+    height: 600px;
+}
+
+.login-img-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-img-section::before {
+    content: "India’s Favourite Wedding Planning Platform";
+    position: absolute;
+    font-size: 2.5rem;
+    z-index: 1;
+    width: 400px;
+    color: #fff;
+    /* padding-top: 3rem; */
+    word-spacing: 1rem;
+}
+
+.login-section .login {
+    /* width: 100%; */
+}
+
+.login-section .login h3 {
+    font-size: 1.9rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.login .alter-btn {
+    display: block;
+    margin: auto;
+    width: 110px;
+    padding: .2rem .5rem;
+    font-size: 16px;
+    border: none;
+    background-color: #ff1fa9;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Ficon {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.Gicon {
+    color: rgb(133, 139, 139);
+    font-size: 1.2rem;
+}
+
+.login-section .login .emil-input {
+    border: 1px solid rgb(247, 206, 206);
+    display: flex;
+    gap: 1rem;
+    padding: .4rem 1.7rem;
+    width: 400px;
+    margin-top: 1rem;
+}
+
+.login-section .login .emil-input-icon {
+    font-size: 1.8rem;
+    color: red;
+}
+
+.login-section .login input {
+    outline: none;
+    border: none;
+}
+
+.google-login {
+    text-align: center;
+}
+
+.continue-bnt {
+    display: block;
+    font-size: 17px;
+    padding: .4rem 1.3rem;
+    border: 1px solid rgb(238, 194, 194);
+    margin: 1.3rem auto;
+    cursor: pointer;
+}
+
+.seperator-container {
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.seperator {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: .2rem;
+    padding: 1rem 0;
+}
+
+.seperator::before,
+.seperator::after {
+    content: " ";
+    height: 1px;
+    background-color: black;
+    display: block;
+}
+
+
+.google-login button {
+    font-size: 17px;
+    background: #fff;
+    padding: .4rem 1rem;
+    margin: 0 .5rem;
+    border: 1px solid rgb(224, 219, 219);
+    cursor: pointer;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem auto;
+}
+
+
+
+.signin .sign-in-btn {
+    padding: .4rem 1rem;
+    cursor: pointer;
+}

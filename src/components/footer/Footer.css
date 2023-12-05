@@ -1,0 +1,409 @@
+.footer-main {
+    background-color: #fff;
+}
+
+.footer-section {
+    background: #fff;
+    padding-top: 4rem;
+    margin-top: 3rem;
+}
+
+.footer-section-desc {
+    padding: 0 .7rem;
+}
+
+.footer-section-desc h3 {
+    color: rgb(88, 88, 88);
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-section-desc p {
+    padding: 1rem 0;
+    font-style: italic;
+}
+
+.footer-section-socials {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 4rem;
+    /* align-items: center; */
+    padding: 1rem .5rem;
+}
+
+.footer-section-socials-row .icon-div p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hrTag {
+    border: 0.1px solid rgb(240, 237, 237);
+}
+
+.contact-details {}
+
+.newslatter-input input {
+    padding: .7rem;
+    border: none;
+    background: rgb(240, 240, 240);
+    /* color: white; */
+    margin: .8rem 0;
+}
+
+.newslatter-input input:focus {
+    outline: none;
+}
+
+.newslatter-input button {
+    padding: .6rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #EA4C89;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: .3rem;
+}
+
+.footer-section-socials h3 {
+    color: rgb(80, 77, 77);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-newsletter h3 {
+    padding-top: 1rem;
+}
+
+.footer-social-contact p {
+    padding: .2rem 0;
+    font-size: 18px;
+    color: #f321ad;
+}
+
+
+/* footer big btns ////.... */
+.footerBigBtn {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* .nBtn {
+    position: relative;
+    width: 220px;
+    font-size: 17px;
+    color: #000000;
+    border: 1px solid #d62e6e;
+    background: transparent;
+    padding: .7rem .3rem;
+    cursor: pointer;
+    transition: 0.8s all ease-in-out 0s;
+    overflow: hidden;
+} */
+
+/* .nBtn:hover {
+    color: #ffffff;
+} */
+
+/* .nBtn::before {
+    content: "Click Me : )";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #f321ad;
+    transition: .8s all ease-in-out 0s;
+} */
+/* 
+.s-w::before {
+    content: "Submit Wedding";
+    text-align: center;
+    padding: 1rem 0;
+    width: 0;
+}
+
+.s-w:hover::before {
+    left: unset;
+    right: 0;
+    width: 100%;
+}
+
+.r-v::before {
+
+    top: unset;
+    bottom: 0;
+    height: 0;
+}
+
+.r-v:hover::before {
+    bottom: unset;
+    top: 0;
+    height: 100%;
+} */
+
+
+.nBtn {
+    position: relative;
+    width: 220px;
+    font-size: 17px;
+    color: #000000;
+    border: 1px solid #d62e6e;
+    background: transparent;
+    padding: .7rem .3rem;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 1rem 0;
+
+}
+
+.nBtn:hover {
+    color: #ffffff;
+}
+
+.nBtn::before {
+    content: "Click Here!";
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 19px;
+    position: absolute;
+    top: 0;
+    /* left: -100%; */
+    width: 100%;
+    height: 100%;
+
+    background-color: #f321ad;
+    transition: left 0.8s ease-in-out;
+}
+
+/* .nBtn:hover::before {
+    left: 0;
+} */
+.s-w::before {
+    left: -100%;
+}
+
+.s-w:hover::before {
+    left: 0;
+}
+
+.r-v::before {
+    right: -100%;
+    transition: right 0.8s ease-in-out;
+}
+
+.r-v:hover::before {
+    right: 0;
+}
+
+
+
+/* CSS */
+.button-1 {
+    background-color: #EA4C89;
+}
+
+.newslatter-input .btn {
+    color: white;
+}
+
+/* .newslatter-input button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid brown;
+} */
+
+
+.icon-div {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    margin: 1rem 0;
+}
+
+.footer-section-socials-row .icon-div .icon {
+    font-size: 1.2rem;
+}
+
+.footer-section-socials-row .icon-div {
+    cursor: pointer;
+}
+
+.icon-div .fb {
+    color: blue;
+}
+
+.icon-div .insta {
+    color: red;
+}
+
+.icon-div .whats {
+    color: green;
+}
+
+.icon-div .linkd {
+    color: rgb(43, 122, 226);
+}
+
+.icon-div .yt {
+    color: red;
+}
+
+.icon-div .tw {
+    color: rgb(0, 162, 255);
+}
+
+.app img {
+    display: block;
+    margin: 2rem 0;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.app .appstore {
+    animation: animation linear 3s infinite;
+}
+
+.app .playstore {
+    animation: animation linear 4s infinite;
+}
+
+.app img:hover {
+    /* transform: translateY(1.1rem) rotate(60deg); */
+}
+
+@keyframes animation {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    30% {
+        transform: translateY(0.5rem);
+    }
+
+    50% {
+        transform: translateY(1.2rem);
+    }
+
+    70% {
+        transform: translateY(0.5rem);
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+
+
+
+
+
+.footer-section-navlist {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 1rem 0;
+    padding-top: 1rem;
+}
+
+.footer-section-navlist h3 {
+    padding: .4rem 0;
+    color: rgb(54, 54, 54);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navlist-row li {
+    margin: .4rem 0;
+}
+
+.navlist-row li a {
+    color: rgb(95, 95, 95);
+}
+
+.navlist-row li a:hover {
+    color: #EA4C89;
+}
+
+
+.copywrite-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+
+.copywrite-section .date {
+    display: flex;
+    gap: .4rem;
+}
+
+.copywrite-section .date img {
+    width: 30px;
+    background-color: red;
+    border-radius: 20px;
+    opacity: .5;
+}
+
+.copywrite-section .date h4 {
+    color: rgb(247, 159, 159);
+}
+
+.copywrite-section .terms {
+    display: flex;
+    gap: .6rem;
+}
+
+.copywrite-section .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* funny  */
+.funny-footer {}
+
+.funny-footer .ghost-icon {
+    font-size: 4rem;
+    animation: gani 3s linear infinite;
+}
+
+.b-icon {
+    color: red;
+    font-size: 4rem;
+    animation: ani 10s linear infinite;
+}
+
+@keyframes gani {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateX(5rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes ani {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.brand .brand-icon {
+    font-size: 2rem;
+    color: rgb(2, 187, 201);
+}

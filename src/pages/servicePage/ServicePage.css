@@ -1,0 +1,354 @@
+.service-heading {
+
+    /* margin-top: -5rem; */
+    position: relative;
+}
+
+.service-heading-img {
+    width: 100%;
+    height: 430px;
+}
+
+.service-heading-img img {
+    width: 100%;
+    height: 100%;
+    /* opacity: .8; */
+}
+
+.service-heading-content {
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+}
+
+.service-heading-desc {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.service-heading-content h1 {
+    text-align: center;
+    color: white;
+    padding: .8rem 0;
+
+}
+
+.service-heading-desc .item {
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+    border-right: 1px solid #fff;
+}
+
+.service-heading-desc .item .icon {
+    font-size: 1.5rem;
+    color: rgb(255, 0, 149);
+}
+
+.service-heading-desc .item p {
+    font-size: 17px;
+    color: rgb(255, 0, 149);
+    padding-right: 1rem;
+}
+
+
+
+
+/* offer section  */
+
+.service-container .offer-banner {
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.service-container .offer-banner img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.service-item .item-offer {
+    width: 90px;
+    position: absolute;
+    top: 40%;
+    right: 7%;
+
+}
+
+.service-item .item-offer img {
+    width: 100%;
+}
+
+/* contianer  */
+
+.service-container {
+    margin: 2rem auto;
+    padding-top: 3rem;
+    position: relative;
+}
+
+.service-container h3 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 0, 140);
+}
+
+.service-container p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-container .services {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1rem auto;
+    padding: .7rem 0rem;
+}
+
+.service-container .services .service-item {
+    border: 1px solid rgb(255, 165, 214);
+    ;
+    border-radius: 10px;
+    width: 380px;
+    background-color: #fff;
+    position: relative;
+}
+
+.service-container .services .service-item .recom {
+    background-color: rgb(253, 13, 145);
+    border-radius: 5px;
+    text-align: center;
+    padding: .2rem 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.service-container .services .service-item .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem .5rem;
+}
+
+.service-container .services .service-item .title h3 {
+    color: rgb(253, 13, 145);
+}
+
+.services .service-item .title .title-price .actual-price {
+    color: #8a7171;
+    text-decoration: line-through;
+}
+
+.services .service-item .content {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item .content .addCart-btn {
+    display: flex;
+    justify-content: space-between;
+    /* gap: .4rem; */
+    border: 1px solid rgb(253, 13, 145);
+    height: 30px;
+    width: 70px;
+    margin-top: 1rem;
+}
+
+.service-item .content .addCart-btn .icon {
+    font-size: 1.1rem;
+    background-color: rgb(253, 13, 145);
+    height: 100%;
+    color: #fff;
+    width: 20px;
+    cursor: pointer;
+    padding: 0 .2rem;
+}
+
+.service-item .content .addCart-btn h4 {
+    font-size: 1.5rem;
+}
+
+.service-item .content .service-content .service-content-item {
+    display: flex;
+    gap: .3rem;
+    margin: .2rem 0;
+}
+
+.service-item .content .service-content h4 {
+    color: grey;
+    padding-top: .4rem;
+    font-size: 16px;
+}
+
+.service-item .content .service-content .service-content-item .icon {
+    color: red;
+    font-size: 1rem;
+}
+
+.services .service-item .content .service-content p {}
+
+.services .service-item .content .service-content .icon {}
+
+.service-item .services-photos {
+    display: flex;
+    justify-content: space-between;
+    margin: .7rem 0;
+}
+
+.service-item .services-photos .simg {
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+.service-item .services-photos .simg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* shoping cart navbar .................... */
+.cart-nav {
+    background-color: rgb(255, 0, 149);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .7rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.serviceNavShow {
+    display: flex;
+}
+
+.cart-nav .price {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.cart-nav .price h3 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.cart-nav .price .icon {
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.cart-nav .count h4 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.cart-nav button {
+    font-size: 1.1rem;
+    padding: .5rem 1.2rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(255, 0, 200);
+    cursor: pointer;
+}
+
+.cart-nav button:hover {
+    color: #fff;
+    background-color: rgb(255, 0, 149);
+}
+
+
+
+
+/* latest work .............................  */
+
+.work-section {
+    margin-top: 3rem;
+}
+
+.work-section h3 {
+    padding: 1rem 0;
+}
+
+.work-container {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.workContainer-heading {}
+
+.works {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* place-items: center; */
+    gap: 1rem;
+}
+
+.workItem {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.workItem .workItem-img {
+    /* width: 200px; */
+    width: 300px;
+    height: 200px;
+}
+
+.workItem .workItem-img img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+
+.workItem-content {
+    padding: .3rem .8rem;
+}
+
+.workItem-content .name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workItem-content .name .icon {
+    color: rgb(250, 34, 178);
+}
+
+.workItem-content .name h4 {
+    color: grey;
+}
+
+.workItem-content .name p {
+    color: grey;
+}
+
+.workItem-content .place {
+    display: flex;
+    gap: .3rem;
+    color: grey;
+}
+
+.workItem .date {
+    color: rgb(255, 142, 142);
+    padding: .5rem 0;
+}

@@ -1,0 +1,72 @@
+.viewDesc-page {
+    /* background-color: #ffff; */
+    margin: 3rem 0;
+
+}
+
+.viewDesc-section {
+    /* width: 80%; */
+    /* border: 1px solid brown; */
+    background-color: #fff;
+    padding: 2rem 1rem;
+}
+
+.viewDescAbout-container {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.viewDescAbout-container h3 {
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 0 .6rem 0;
+}
+
+.viewDescAbout-container p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 0 2rem 0;
+}
+
+
+
+
+
+.viewDesc-faq-section {
+    /* border: 1px solid green; */
+    width: 70%;
+    margin: 1rem auto;
+
+}
+
+.viewDesc-faq-section h3 {
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    padding: .8rem 0;
+}
+
+.viewDescFaq-container h3 {
+    /* color: rgb(88, 88, 88); */
+    padding: 0;
+
+}
+
+.viewDescFaq-item {
+    /* border: 1px solid red; */
+    margin: 1.5rem 0;
+    background-color: rgb(247, 247, 247);
+    padding: .5rem;
+    border-radius: 7px;
+}
+
+.viewDescFaq-item h3 {
+    padding: .4rem 0;
+}
+
+.viewDescFaq-item p {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: .4rem 0 0 .8rem;
+}

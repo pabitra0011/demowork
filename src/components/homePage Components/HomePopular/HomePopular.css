@@ -1,0 +1,61 @@
+.popular-venue-search h2 {
+    padding: 1rem 0;
+    margin-top: 2rem;
+    color: rgb(73, 72, 72);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+/* .popular-venue-search-container{} */
+.popularVenue-Item {
+    /* border: 1px solid red; */
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.popularVenue-Item .popularVenue-content {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.subcities {
+    display: flex;
+    gap: .3rem;
+    flex-wrap: wrap;
+    padding: .1rem 0 .3rem 0;
+}
+
+.subcities p {
+    border-right: 1px solid rgb(255, 143, 143);
+    color: rgb(252, 83, 134);
+    padding-right: .3rem;
+    line-height: 13px;
+}
+
+.popularVenue-content .about {
+    padding: .3rem 0;
+}
+
+.about a {
+    /* text-decoration: underline; */
+    color: rgb(235, 33, 67);
+    font-size: 17px;
+    border-bottom: 1px solid rgb(247, 172, 172);
+}
+
+.popularVenue-content .about h3 {
+    padding: .2rem 0;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+.popularVenue-Item .popularVenue-content img {
+    width: 190px;
+    border-radius: 10px;
+}

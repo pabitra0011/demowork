@@ -1,0 +1,117 @@
+.nav-section {
+    /* border: 1px solid red; */
+    background-color: #fff;
+    /* padding: .7rem 0; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    margin-top: 3rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: .6rem 0rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    border: 1px solid rgb(228, 228, 228);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-item .icon {
+    font-size: 1.3rem;
+}
+
+.nav-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+}
+
+
+
+.nav-section.fixed {
+    background-color: rgb(235, 235, 235);
+    transition: .5s ease-in-out;
+    position: fixed;
+    top: 2.7rem;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+}
+
+.nav-section.fixed .nav-item {
+    background-color: #fff;
+}
+
+.nav-section.fixed .nav-container {
+    justify-content: space-evenly;
+    margin: 0 4rem;
+}
+
+
+
+
+.viewNav-content {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 4.6rem; */
+}
+
+.nav-item-content {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.nav-item-content div {
+    /* border: 1px solid black; */
+    margin: .1rem 0;
+}
+
+.nav-item-content input {
+    /* width: 19px; */
+}
+
+.nav-item-content label {
+    font-size: 17px;
+    padding-left: .5rem;
+    /* color: rgb(255, 0, 106); */
+}
+
+.viewItem-content-bnts {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.viewItem-content-bnts button {
+    font-size: 17px;
+    padding: .2rem .5rem;
+    cursor: pointer;
+}
+
+.viewItem-content-bnts .reset {
+    background-color: #fff;
+    border: none;
+    border: 1px solid rgb(255, 0, 149);
+    border-radius: 7px;
+}
+
+.viewItem-content-bnts .view {
+    border: none;
+    background-color: rgb(255, 0, 157);
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 7px;
+}

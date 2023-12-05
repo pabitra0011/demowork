@@ -1,0 +1,63 @@
+.homeService-section {
+    /* display: flex; */
+    max-width: 70vw;
+    margin: 1rem auto;
+    padding: 1rem 0;
+}
+
+.homeService-section h2 {
+    color: rgb(83, 82, 82);
+    padding: 1rem 0;
+}
+
+.homeService-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+
+.homeService-item {
+    border: 1px solid rgb(226, 224, 224);
+    text-align: center;
+    padding: .5rem;
+    box-shadow: rgba(241, 102, 102, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.homeService-item img {
+    border-radius: 6px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.homeService-item h1 {
+    font-size: 1.3rem;
+    padding: .4rem 0;
+    color: rgb(75, 70, 70);
+}
+
+.homeService-item p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.homeService-item button {
+    padding: .6rem 1.5rem;
+    border: 1px solid rgb(233, 75, 225);
+    background: #fff;
+    margin: .9rem 0;
+    cursor: pointer;
+}
+
+.homeService-item:hover .btn {
+    background: rgb(248, 103, 241);
+    color: #fff;
+}
+
+.homeService-item:hover img {
+    transform: scale(1.1);
+}

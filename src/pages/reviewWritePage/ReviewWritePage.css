@@ -1,0 +1,154 @@
+.write-page {
+    position: relative;
+}
+
+.writePage-heading {
+    background-color: #fff;
+    padding-bottom: 10rem;
+
+}
+
+.writePage-heading p {
+    padding: 1.5rem 2rem;
+    width: 70%;
+    margin: auto;
+    font-size: 17spx;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.writePage-heading h3 {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 3rem;
+    /* font-weight: bold; */
+    color: rgb(255, 0, 157);
+}
+
+.writePage-container {
+    width: 800px;
+    margin: auto;
+    margin-top: -4rem;
+    background-color: #fff;
+    padding: 3rem 1.5rem;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+}
+
+.writePage-container form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.writePage-container form label {
+    font-size: 22px;
+    padding-top: 1rem;
+    /* padding-bottom: .5rem; */
+    color: rgb(255, 0, 119);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.writePage-container form input {
+    height: 45px;
+    font-size: 17px;
+    margin: 1rem 0;
+    border: 1px solid rgb(212, 210, 210);
+    padding: .2rem;
+}
+
+.writePage-container form input:focus {
+    overflow: none;
+}
+
+.writePage-container form textarea {
+    height: 200px;
+    width: 80%;
+    margin: 1rem 0;
+    border: 1px solid rgb(206, 204, 204);
+}
+
+.writePage-container form textarea:focus {
+    outline: none;
+}
+
+.reviewPage-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.reviewPage-btns button {
+    font-size: 16px;
+    padding: .3rem .8rem;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+    cursor: pointer;
+}
+
+.reviewPage-btns .addPhoto {
+    background-color: #fff;
+    border: 1px solid red;
+    padding: .3rem .5rem;
+    cursor: pointer;
+}
+
+.reviewPage-btns .addPhoto label {
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    /* display: inline; */
+    cursor: pointer;
+}
+
+.addPhoto input {
+    cursor: pointer;
+}
+
+.reviewPage-btns .submit {
+    background-color: rgb(245, 77, 181);
+    border: 1px solid rgb(255, 0, 191);
+    color: #fff;
+}
+
+
+/* imgs sho w ............................. */
+
+.imgs-show-container {
+    border: 1px solid rgb(255, 204, 204);
+    border-radius: 10px;
+    background-color: #fff;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    overflow-y: scroll;
+}
+
+.imgs-show-container h3 {
+    text-align: center;
+    color: red;
+    padding: 1rem 0rem;
+}
+
+.imgs-show-container .photos-container {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgs-show-container .photos-container .photo {
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+
+}
+
+.imgs-show-container .photos-container .photo img {
+    width: 100%;
+    height: 100%;
+}

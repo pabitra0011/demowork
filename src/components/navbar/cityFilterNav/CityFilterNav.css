@@ -1,0 +1,306 @@
+.cityNav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 37, 164);
+    padding: .4rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.cityNav.fixed {
+    background-color: rgb(253, 226, 255);
+    transition: .5s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.cityNav .city-search-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem .6rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cityNav .city-search-section input {
+    border: none;
+    font-size: 1rem;
+}
+
+.cityNav .city-search-section input:focus {
+    outline: none;
+}
+
+/* .cityNa */
+
+.review-section .review-icon {
+    /* color: white; */
+    font-size: 1.5rem;
+}
+
+.all-search-city-section {
+    position: absolute;
+    background-color: #fff;
+    width: 800px;
+    margin-top: 1.8rem;
+    padding: 2rem 0;
+    border-radius: 10px;
+    /* display: none; */
+}
+
+.all-search-city {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-search-city .cityRow h3 {
+    color: red;
+    padding-bottom: 1rem;
+}
+
+.all-search-city .cityRow li {
+    padding: .3rem 0;
+}
+
+.all-search-city .cityRow a:hover {
+    font-size: 1.05rem;
+}
+
+.cityNav .about {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cityNav .about h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 4px 3px 7px rgb(13, 49, 250);
+
+}
+
+.cityNav .about .phoneCall {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.cityNav .about .icon {
+    color: blue;
+    font-size: 1.1rem;
+}
+
+.cityNav .about p {
+    /* color: #fff; */
+    font-size: 15px;
+    /* font-weight: bold; */
+    font-family: 'Herr Von Muellerhoff', cursive;
+}
+
+
+.review-section {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    border: 1px solid #fff;
+    padding: 0 .2rem;
+    border-radius: 10px;
+    background-color: #d60a81;
+
+}
+
+.review-section:hover {
+    background-color: #ff0da2;
+    /* color: black; */
+}
+
+.navbar-login-btn button {
+    font-size: 17px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #d60a81;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.navbar-login-btn button:hover {
+    background-color: #ff0da2;
+    /* color: black; */
+
+}
+
+
+
+/* for sticky fixed contact btn .......................... */
+
+.sticky-btn {
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(#ee4bd3, #40d74d);
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sticky-btn:before,
+.sticky-btn:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: #d74540; */
+    background-color: #40d74d;
+    border-radius: 50%;
+    opacity: .7;
+    z-index: -1;
+}
+
+.sticky-btn:before {
+    animation: pulse 1.4s ease-out infinite;
+}
+
+.sticky-btn:after {
+    animation: pulse 1.4s ease-out infinite;
+}
+
+@keyframes pulse {
+    /* 50% {
+        transform: scale(1.5);
+        opacity: .5;
+    } */
+
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+.whatsApp .whats-sticky-icon {
+    color: green;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.sticky-btn-form {
+    width: 330px;
+    position: fixed;
+    bottom: 170px;
+    right: 10px;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 100;
+    /* position: relative; */
+    transition: 2s;
+    /* margin: auto; */
+    /* box-shadow: rgba(45, 253, 218, 0.3) 0px 19px 38px, rgba(8, 245, 253, 0.22) 0px 15px 12px; */
+}
+
+
+.sticky-btn-form:hover {
+    box-shadow: rgba(255, 0, 0, 0.4) 0px 30px 90px;
+    transition: 2;
+}
+
+/* display: none; */
+
+
+.sticky-btn-form-hide {
+    display: none;
+}
+
+.sticky-btn-form-show {
+    display: block;
+}
+
+.sticky-btn-form .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f12074;
+    padding: 1rem .5rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.sticky-btn-form .heading .icon {
+    margin-left: 1rem;
+}
+
+.sticky-btn-form .heading h3 {
+    color: #f1f1f1;
+    font-size: 24px;
+    /* margin-left: 2rem; */
+}
+
+.sticky-btn-form .heading .icon {
+    background-color: #fff;
+    color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sticky-btn-form .greet {
+    border: 1px solid rgb(219, 215, 215);
+    border-radius: 10px;
+    padding: .3rem 1rem;
+    width: 70%;
+    margin: 1.5rem auto;
+}
+
+.sticky-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(231, 231, 231);
+    width: 90%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.sticky-form input {
+    margin: .7rem 0;
+    height: 29px;
+    border: none;
+    border-bottom: 1px solid rgb(199, 196, 196);
+    font-size: 17px;
+}
+
+.sticky-form input:focus {
+    outline: none;
+}
+
+.sticky-form button {
+    width: 50%;
+    font-size: 17px;
+    margin: 1rem auto;
+    padding: .4rem 0;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(336, 88%, 54%);
+    border: 1px solid hsl(336, 88%, 54%);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sticky-form button:hover {
+    background-color: #eeeeee;
+    border: 1px solid hsl(336, 88%, 54%);
+    color: black;
+}

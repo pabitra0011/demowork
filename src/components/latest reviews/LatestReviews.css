@@ -1,0 +1,56 @@
+.latestRevieMain {}
+
+.latest-reviews-section {
+    margin: 3rem auto;
+}
+
+.latest-reviews-section .heading {
+    padding: .5rem 0;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    /* margin-bottom: 2rem; */
+    font-size: 1.4rem;
+    color: rgb(107, 106, 106);
+}
+
+.Latestreview-item {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    background-color: #ffffff;
+    padding: .8rem;
+    border-radius: 10px;
+}
+
+.review-item-img {
+    width: 100px;
+    overflow: hidden;
+
+}
+
+.review-item-img img {
+    width: 100%;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.review-item-img img:hover {
+    transform: scale(1.1)
+}
+
+.review-item-details {}
+
+.review-item-details p {
+    /* padding: .3rem 0; */
+    margin: .4rem 0;
+}
+
+.review-item-date {
+    display: flex;
+    gap: .8rem;
+}
+
+.review-item-date p {
+    padding: 0 .4rem;
+    color: rgb(179, 133, 133);
+    border-left: 1px solid rgb(184, 183, 183);
+}
