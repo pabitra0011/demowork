@@ -36,7 +36,7 @@ function App() {
   // console.log(user)
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <CityFilterNav />
         <Routes>
           <Route path='/' element={<HomePage />} />
