@@ -38,6 +38,7 @@ function App() {
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>
         <CityFilterNav />
+
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/login' element={<LogIn />} />
@@ -49,7 +50,11 @@ function App() {
           <Route path='/viewitem/:id' element={<SingleVIewPage />} />
           <Route path='/writepage' element={user ? <ReviewWritePage /> : <LogIn />} />
           <Route path='/service' element={<ServicePage />} />
+
+          <Route path='*' element={<HomePage />} />
+
         </Routes>
+
         <Footer />
       </Router>
     </div>

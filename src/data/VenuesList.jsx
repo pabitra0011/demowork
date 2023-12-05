@@ -24,7 +24,7 @@ const img14 = 'https://th.bing.com/th/id/OIP.b4jB34trDM0YQGnlAjJNEQHaEN?rs=1&pid
 const venueList = [
     {
         id: 1,
-        img: img1,
+        img: img14,
         name: 'Le maridean Banglore',
         city: 'Banglore',
         location: '34B, whitefield, Banglore, Karnataka',
