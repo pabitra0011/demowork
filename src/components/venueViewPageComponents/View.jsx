@@ -136,7 +136,7 @@ const ViewPage = () => {
                 search: `?viewitem=${encodeURIComponent(JSON.stringify(item))}`
               }}>
                 {/* dfdsfsfsfsdf <Link to='/viewitem' > */}
-
+                {/* jlsdkjlsdjflskdfj */}
                 <div className='view-item' key={i}>
                   <div className="view-item-img">
                     <img alt='f' src={item.img} />
