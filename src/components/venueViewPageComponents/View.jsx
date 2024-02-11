@@ -135,7 +135,7 @@ const ViewPage = () => {
                 pathname: `/viewitem/${item.id}`,
                 search: `?viewitem=${encodeURIComponent(JSON.stringify(item))}`
               }}>
-                {/*  <Link to='/viewitem' > */}
+                {/* dfdsfsfsfsdf <Link to='/viewitem' > */}
 
                 <div className='view-item' key={i}>
                   <div className="view-item-img">
