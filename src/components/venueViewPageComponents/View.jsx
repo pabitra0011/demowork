@@ -36,6 +36,7 @@ const ViewPage = () => {
     CityvnData = AllData;
   }
 
+
   // venueType.toLowerCase();
   //filter out accroding to type::...................................
   let MainData = CityvnData;
